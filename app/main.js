@@ -1,5 +1,5 @@
-import DragonController from "./app/components/DragonController.js"
-import ChampionController from "./app/components/ChampionController.js"
+import DragonController from "./app/components/dragons/DragonController.js"
+import ChampionController from "./app/components/champions/ChampionController.js"
 
 
 export default class App {
