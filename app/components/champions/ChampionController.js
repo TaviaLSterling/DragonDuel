@@ -9,7 +9,7 @@ function drawChampions(data) {
     data.forEach(champion => {
         template += 
      `
-    <img src="${data.imgUrl}">
+    <img src="${champion.imgUrl}">
         `
      })
      championsElem.innerHTML = template
@@ -17,5 +17,8 @@ function drawChampions(data) {
 export default class ChampionController {
     constructor(){
         drawChampions()
+    }
+    getChampions() {
+        championService.getChampions(drawChampions())
     }
 }
