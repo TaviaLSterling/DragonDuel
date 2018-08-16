@@ -9,7 +9,11 @@ function drawChampions(data) {
     data.forEach(champion => {
         template += 
      `
+     <div class="col-sm-2.4">
     <img src="${champion.imgUrl}">
+    <h3>Name: ${champion.name}</h3>
+    <h3>HP: ${champion.hp}</h3>
+    </div>
         `
      })
      championsElem.innerHTML = template

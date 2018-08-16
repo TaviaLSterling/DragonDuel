@@ -9,7 +9,11 @@ function drawDragons(data) {
     data.forEach(dragon => {
         template += 
      `
+     <div class="col-sm-2.4">
     <img src="${dragon.imgUrl}">
+    <h3>${dragon.name}</h3>
+    <h3>HP: ${dragon.maxHP}</h3>
+    </div>
         `
      })
      dragonsElem.innerHTML = template

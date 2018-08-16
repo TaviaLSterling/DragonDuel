@@ -1,4 +1,30 @@
 img{
-    height:300px;
-    width:300px;
+    height:350px;
+    width:275px;
+    outline: 4px solid black;
+}
+body {
+    text-align: center;
+    background-color:rgb(34, 77, 6);
+    font-family: 'Federo', sans-serif;
+    color:white;
+}
+header {
+    margin-top:20px;
+    margin-bottom:100px;
+    font-family: 'Federo', sans-serif;
+}
+h2 {
+    font-family: 'Federo', sans-serif;
+    border-bottom:2px solid white;
+    margin-bottom:30px;
+}
+#champions {
+    margin-bottom:30px;
+    display:flex;
+    justify-content:center;
+}
+#dragons {
+    display:flex;
+    justify-content:center;
 }
