@@ -16,9 +16,10 @@ function drawChampions(data) {
 }
 export default class ChampionController {
     constructor(){
-        drawChampions()
+      //  drawChampions()
+      championService.getChampions(drawChampions)
     }
-    getChampions() {
-        championService.getChampions(drawChampions())
-    }
+ //   getChampions() {
+        
+  //  }
 }

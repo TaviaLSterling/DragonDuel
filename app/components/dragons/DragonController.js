@@ -14,11 +14,12 @@ function drawDragons(data) {
      })
      dragonsElem.innerHTML = template
 } 
-export default class ChampionController {
+export default class DragonController {
     constructor(){
-        drawDragons()
+        //drawDragons()
+        dragonService.getDragons(drawDragons)
     }
-    getChampions() {
-        dragonService.getDragons(drawDragons())
-    }
+   // getDragons() {
+  //      dragonService.getDragons(drawDragons())
+//    }
 }
