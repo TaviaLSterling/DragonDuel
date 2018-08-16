@@ -2,6 +2,11 @@ img{
     height:350px;
     width:275px;
     outline: 4px solid black;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+img:hover {
+    opacity:1
 }
 body {
     text-align: center;
@@ -23,6 +28,7 @@ h2 {
     margin-bottom:30px;
     display:flex;
     justify-content:center;
+
 }
 #dragons {
     display:flex;
